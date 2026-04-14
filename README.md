@@ -2,7 +2,9 @@
 
 ## Etapa 1: Preparação do Ambiente
 
-Abra o repositório no CodeSpaces (via Classroom). Ele irá clonar o repositório em um espaço só seu, privado, e abrir um ambiente virtual com Linux e o editor VS Code. Nele, realize as tarefas e, ao terminar, faça um push para sincronizar seu trabalho com o repositório, e o professor será avisado e poderá conferir. 
+Abra o repositório no CodeSpaces (via Classroom). Para tanto, clique no botão "Code" no repositório do GitHub e selecione a aba "Codespaces" > "Create codespace on main".
+
+Ele irá clonar o repositório em um espaço só seu, privado, e abrir um ambiente virtual com Linux e o editor VS Code. Nele, realize as tarefas e, ao terminar, faça um push para sincronizar seu trabalho com o repositório, e o professor será avisado e poderá conferir. 
 
 Se desejar rodar no seu computador local, clone localmente o repositório e depois suba o ambiente via terminal (é necessário ter o ambiente Docker previamente instalado): docker-compose run --rm web bash.
 
@@ -23,6 +25,8 @@ Ela envolve:
 2. Verificação (rodar o servidor pela primeira vez): python manage.py runserver 0.0.0.0:8000.
 3. Criação da App "Polls": python manage.py startapp polls.
 4. Seguir os demais passos (até a etapa 4) - não precisa ir até a etapa 5.
+
+**Atenção**: Ao executar `python manage.py runserver`, o VS Code no navegador mostrará uma notificação no canto inferior direito: "Your application running on port 8000 is available.". Clique em "Open in Browser" e a aplicação irá aparecer.
 
 ## Entrega
 
