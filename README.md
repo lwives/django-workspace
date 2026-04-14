@@ -12,9 +12,9 @@ Se desejar rodar no seu computador local, clone localmente o repositório e depo
 
 Basicamente, você deve:
 
-1. Criar um ambiente virtual: python -m venv .venv.
-2. Ativar o ambiente: source .venv/bin/activate.
-3. Instalar o Django: python -m pip install Django.
+1. Criar um ambiente virtual: python -m venv .venv
+2. Ativar o ambiente: source .venv/bin/activate
+3. Instalar o Django: python -m pip install Django
 
 ## Etapa 3: Criando o Projeto e a App (Tutorial 01)
 
